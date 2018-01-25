@@ -1,0 +1,27 @@
+Package: getdns
+Type: Package
+Title: Query Domain Name System Using the 'getdns' Application Programming Interface
+Version: 0.1.0
+Date: 2018-01-25
+Authors@R: c(
+    person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 
+           comment = c(ORCID = "0000-0001-5670-2640"))
+  )
+Maintainer: Bob Rudis <bob@rud.is>
+Description: The core library used is 'getdns' which is an implementation of a
+    modern asynchronous 'DNS' 'API'; the specification was originally edited by 
+    'Paul Hoffman'. It is intended to make all types of DNS information easily 
+    available to application developers and non-'DNS' experts.
+URL: https://github.com/hrbrmstr/getdns
+BugReports: https://github.com/hrbrmstr/getdns/issues
+Encoding: UTF-8
+License: BSD
+Suggests:
+    testthat,
+    covr
+Depends:
+    R (>= 3.2.0)
+Imports:
+    Rcpp
+RoxygenNote: 6.0.1.9000
+LinkingTo: Rcpp
